@@ -77,30 +77,60 @@ export default function Home() {
               </Link>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <CollectionCard 
                 name="Milano" 
                 description="L'essenza dell'eleganza metropolitana. Linee pulite e movimento ultra-piatto."
-                imageId="1523275335684-37898b6baf30"
+                imageSrc="https://images.unsplash.com/photo-1620625515032-6ed0c1790c75?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2F0Y2hlc3xlbnwwfHwwfHx8MA%3D%3D"
                 href="/collezioni#milano"
               />
               <CollectionCard 
                 name="Torino" 
                 description="Ispirata all'ingegneria automobilistica. Robusta, precisa, inarrestabile."
-                imageId="1509048191080-d2984bad6ae5"
+                imageSrc="https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 href="/collezioni#torino"
               />
               <CollectionCard 
                 name="Venezia" 
                 description="Complicanze poetiche. Fasi lunari e calendario perpetuo su quadrante smaltato."
-                imageId="1523170335258-f5ed11844a49"
+                imageSrc="https://images.unsplash.com/photo-1660844817855-3ecc7ef21f12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHdhdGNoZXN8ZW58MHx8MHx8fDA%3D"
                 href="/collezioni#venezia"
               />
               <CollectionCard 
                 name="Amalfi" 
                 description="L'orologio subacqueo di lusso. Resistente fino a 300 metri, estetica impeccabile."
-                imageId="1691865179028-1729b766a5cd"
+                imageSrc="https://plus.unsplash.com/premium_photo-1681504446264-708b83f4ea12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHdhdGNoZXN8ZW58MHx8MHx8fDA%3D"
                 href="/collezioni#amalfi"
+              />
+              <CollectionCard 
+                name="Roma" 
+                description="Una presenza architettonica al polso. Cassa scolpita, dettagli in oro rosa e lettura immediata."
+                imageSrc="https://images.unsplash.com/photo-1618215649872-6e3143a716ec?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHdhdGNoZXN8ZW58MHx8MHx8fDA%3D"
+                href="/collezioni#roma"
+              />
+              <CollectionCard 
+                name="Capri" 
+                description="Luce, leggerezza e spirito mediterraneo. Un segnatempo elegante con anima estiva e finiture lucenti."
+                imageSrc="https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fHdhdGNoZXN8ZW58MHx8MHx8fDA%3D"
+                href="/collezioni#capri"
+              />
+              <CollectionCard 
+                name="Firenze" 
+                description="Quadrante caldo, proporzioni raffinate e un profilo che richiama l'eleganza rinascimentale italiana."
+                imageSrc="https://images.unsplash.com/photo-1600003014755-ba31aa59c4b6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fHdhdGNoZXN8ZW58MHx8MHx8fDA%3D"
+                href="/collezioni#firenze"
+              />
+              <CollectionCard 
+                name="Como" 
+                description="Un design silenzioso e prezioso, pensato per riflettere luce e profondità con equilibrio assoluto."
+                imageSrc="https://images.unsplash.com/photo-1554151447-b9d2197448f9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fHdhdGNoZXN8ZW58MHx8MHx8fDA%3D"
+                href="/collezioni#como"
+              />
+              <CollectionCard 
+                name="Portofino" 
+                description="Un segnatempo sportivo di alta gamma con linee morbide, brillantezza contemporanea e presenza marina."
+                imageSrc="https://images.unsplash.com/photo-1539874754764-5a96559165b0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fHdhdGNoZXN8ZW58MHx8MHx8fDA%3D"
+                href="/collezioni#portofino"
               />
             </div>
           </div>

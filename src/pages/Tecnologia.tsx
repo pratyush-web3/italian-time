@@ -101,7 +101,7 @@ export default function Tecnologia() {
       <main className="flex-grow pt-32 bg-background">
         <div className="container mx-auto px-6 max-w-4xl text-center mb-24">
           <h1 className="text-5xl font-serif text-foreground mb-6">Tecnologia e Innovazione</h1>
-          <p className="text-muted-foreground font-light text-lg">La scienza al servizio della misurazione del tempo.</p>
+          <p className="text-muted-foreground font-light text-lg">La scienza al servizio della misurazione del tempo, con una visione progettuale che unisce precisione, estetica e durata.</p>
         </div>
 
         <section className="bg-primary text-primary-foreground py-24 border-y border-primary-foreground/10 overflow-hidden relative">
@@ -118,6 +118,35 @@ export default function Tecnologia() {
                 rispetto agli scappamenti tradizionali, prolungando gli intervalli di manutenzione e migliorando 
                 l'isocronismo.
               </p>
+              <p>
+                Ogni calibro viene regolato in più posizioni, sottoposto a cicli di stress termico e verificato da tecnici 
+                specializzati prima di entrare in cassa. Il risultato è un movimento affidabile, stabile e coerente nel tempo,
+                anche nelle condizioni più impegnative.
+              </p>
+            </div>
+
+            <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+              <div className="border border-primary-foreground/10 bg-primary-foreground/5 p-6">
+                <div className="text-3xl font-serif text-accent mb-3">01</div>
+                <h3 className="font-serif text-lg mb-2">Progettazione CAD</h3>
+                <p className="text-sm text-primary-foreground/70 leading-relaxed">
+                  Ogni ponte, ruota e leva nasce da modelli digitali che ottimizzano spessori, pesi e tolleranze.
+                </p>
+              </div>
+              <div className="border border-primary-foreground/10 bg-primary-foreground/5 p-6">
+                <div className="text-3xl font-serif text-accent mb-3">02</div>
+                <h3 className="font-serif text-lg mb-2">Assemblaggio Manuale</h3>
+                <p className="text-sm text-primary-foreground/70 leading-relaxed">
+                  Artigiani specializzati montano il calibro a mano con strumenti di precisione e controllo microscopico.
+                </p>
+              </div>
+              <div className="border border-primary-foreground/10 bg-primary-foreground/5 p-6">
+                <div className="text-3xl font-serif text-accent mb-3">03</div>
+                <h3 className="font-serif text-lg mb-2">Collaudo Finale</h3>
+                <p className="text-sm text-primary-foreground/70 leading-relaxed">
+                  Simulazioni di urto, test di pressione e verifiche di marcia garantiscono standard di livello superiore.
+                </p>
+              </div>
             </div>
             
             <div className="mt-16 w-full py-8 border border-primary-foreground/10 bg-primary-foreground/5 relative flex justify-center">
@@ -174,6 +203,41 @@ export default function Tecnologia() {
                 <div className="text-4xl font-serif text-accent mb-4">72h</div>
                 <h5 className="font-serif text-lg text-foreground mb-2">Riserva di Carica</h5>
                 <p className="text-sm text-muted-foreground">Prestazioni garantite dal nostro innovativo sistema a doppio bariletto.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-24 bg-background">
+          <div className="container mx-auto px-6 max-w-5xl">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+              <div>
+                <h2 className="text-3xl font-serif text-foreground mb-6">Ricerca e Sviluppo</h2>
+                <p className="text-muted-foreground font-light leading-relaxed mb-4">
+                  Il reparto R&amp;D Temperini lavora per affinare affidabilità, comfort e leggibilità. Ogni nuova soluzione
+                  viene prototipata, testata e confrontata con benchmark di settore prima di passare in produzione.
+                </p>
+                <p className="text-muted-foreground font-light leading-relaxed">
+                  Questo approccio ci permette di migliorare componenti come bariletto, sistema antiurto, fondello e corona,
+                  mantenendo al centro un'estetica coerente con il linguaggio della maison.
+                </p>
+              </div>
+              <div className="border border-border bg-card p-8">
+                <h3 className="text-xl font-serif text-foreground mb-6">Focus Tecnici</h3>
+                <div className="space-y-5 text-sm text-muted-foreground">
+                  <div>
+                    <div className="text-foreground font-medium mb-1">Precisione di marcia</div>
+                    <p>Regolazioni multi-posizione per mantenere stabilità su polso e in condizioni di uso reale.</p>
+                  </div>
+                  <div>
+                    <div className="text-foreground font-medium mb-1">Ergonomia</div>
+                    <p>Casse e bracciali progettati per distribuire il peso in modo equilibrato e naturale.</p>
+                  </div>
+                  <div>
+                    <div className="text-foreground font-medium mb-1">Durabilità</div>
+                    <p>Materiali selezionati per resistere a graffi, corrosione, variazioni termiche e usura quotidiana.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

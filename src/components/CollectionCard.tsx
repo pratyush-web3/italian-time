@@ -3,16 +3,16 @@ import { Link } from "wouter";
 interface CollectionCardProps {
   name: string;
   description: string;
-  imageId: string;
+  imageSrc: string;
   href: string;
 }
 
-export function CollectionCard({ name, description, imageId, href }: CollectionCardProps) {
+export function CollectionCard({ name, description, imageSrc, href }: CollectionCardProps) {
   return (
     <div className="group relative overflow-hidden bg-card border border-border h-[450px] flex flex-col justify-end p-8">
       <div className="absolute inset-0 z-0">
         <img 
-          src={`https://images.unsplash.com/photo-${imageId}?w=800&q=80`} 
+          src={imageSrc} 
           alt={name}
           className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-80 group-hover:opacity-100"
         />
