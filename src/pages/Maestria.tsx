@@ -23,13 +23,13 @@ export default function Maestria() {
                 </p>
               </div>
               <div className="h-80 relative bg-background border border-border group overflow-hidden">
-                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80" alt="Progettazione orologio" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90" />
+                <img src="https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHx3YXRjaGVzfGVufDB8fDB8fHww" alt="Progettazione orologio" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90" />
               </div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-24 items-center">
               <div className="h-80 relative bg-background border border-border group overflow-hidden order-2 md:order-1">
-                <img src="https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?w=800&q=80" alt="Assemblaggio manuale" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90" />
+                <img src="https://images.unsplash.com/photo-1542816340-4d3de5047cfd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQzfHx3YXRjaGVzfGVufDB8fDB8fHww" alt="Assemblaggio manuale" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90" />
               </div>
               <div className="order-1 md:order-2">
                 <h3 className="text-3xl font-serif text-foreground mb-4">Assemblaggio Manuale</h3>
@@ -51,7 +51,7 @@ export default function Maestria() {
                 </p>
               </div>
               <div className="h-80 relative bg-background border border-border group overflow-hidden">
-                <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdhdGNofGVufDB8fDB8fHww" alt="Finitura orologio" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90" />
+                <img src="https://images.unsplash.com/photo-1572020553120-3991e7b8b015?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTU2fHx3YXRjaGVzfGVufDB8fDB8fHww" alt="Finitura orologio" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90" />
               </div>
             </div>
             
