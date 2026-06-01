@@ -23,7 +23,7 @@ export default function Maestria() {
                 </p>
               </div>
               <div className="h-80 relative bg-background border border-border group overflow-hidden">
-                <img src="https://images.unsplash.com/photo-1548171916-b04f0968d0c2?w=800&q=80" alt="Progettazione orologio" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90" />
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80" alt="Progettazione orologio" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90" />
               </div>
             </div>
 
@@ -51,13 +51,13 @@ export default function Maestria() {
                 </p>
               </div>
               <div className="h-80 relative bg-background border border-border group overflow-hidden">
-                <img src="https://images.unsplash.com/photo-1495908309009-36e90e6e41a8?w=800&q=80" alt="Finitura orologio" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90" />
+                <img src="https://images.unsplash.com/photo-1547721064-da6cfb341d50?w=800&q=80" alt="Finitura orologio" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90" />
               </div>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div className="h-80 relative bg-background border border-border group overflow-hidden order-2 md:order-1">
-                <img src="https://images.unsplash.com/photo-1612817159949-195a4d0e0e97?w=800&q=80" alt="Controllo Qualità" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90" />
+                <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=800&q=80" alt="Controllo Qualità" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90" />
               </div>
               <div className="order-1 md:order-2">
                 <h3 className="text-3xl font-serif text-foreground mb-4">Controllo Qualità</h3>

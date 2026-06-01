@@ -25,7 +25,7 @@ export default function Collezioni() {
       tagline: "Meccanica Poetica",
       description: "Venezia è la nostra collezione di alte complicazioni. Ospita calendari perpetui, fasi lunari di precisione e tourbillon. Il quadrante smaltato a mano richiama i riflessi dei canali veneziani all'imbrunire.",
       materials: "Cassa in platino, quadrante in smalto Grand Feu, indici applicati a mano.",
-      image: "1547996160-dace0c27de45",
+      image: "1523170335258-f5ed11844a49",
     },
     {
       id: "amalfi",
@@ -33,7 +33,7 @@ export default function Collezioni() {
       tagline: "Dominare gli Abissi",
       description: "Progettato per resistere alle profondità marine mantenendo un'eleganza adatta anche alla terraferma. L'Amalfi è il nostro orologio subacqueo professionale, testato a 300 metri di profondità.",
       materials: "Acciaio chirurgico, valvola per l'elio, indici luminescenti Super-LumiNova ad alta visibilità.",
-      image: "1495908309009-36e90e6e41a8",
+      image: "1691865179028-1729b766a5cd",
     }
   ];
 

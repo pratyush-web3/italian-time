@@ -17,7 +17,7 @@ export default function ChiSiamo() {
           </p>
  <div className="aspect-video bg-card border border-border w-full flex items-center justify-center relative overflow-hidden rounded-xl">
   <img
-    src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=1600&q=80"
+    src="https://images.unsplash.com/photo-1649803091689-0e65c4e9581f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2F0Y2htYWtlcnxlbnwwfHwwfHx8MA%3D%3D"
     alt="Maestri orologiai italiani al lavoro"
     loading="lazy"
     className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"

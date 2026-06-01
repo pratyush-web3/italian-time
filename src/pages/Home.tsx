@@ -93,13 +93,13 @@ export default function Home() {
               <CollectionCard 
                 name="Venezia" 
                 description="Complicanze poetiche. Fasi lunari e calendario perpetuo su quadrante smaltato."
-                imageId="1547996160-dace0c27de45"
+                imageId="1523170335258-f5ed11844a49"
                 href="/collezioni#venezia"
               />
               <CollectionCard 
                 name="Amalfi" 
                 description="L'orologio subacqueo di lusso. Resistente fino a 300 metri, estetica impeccabile."
-                imageId="1495908309009-36e90e6e41a8"
+                imageId="1691865179028-1729b766a5cd"
                 href="/collezioni#amalfi"
               />
             </div>
