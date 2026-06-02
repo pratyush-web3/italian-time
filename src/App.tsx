@@ -3,6 +3,7 @@ import { Switch, Route, Router as WouterRouter, useLocation } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
+
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
 import ChiSiamo from "@/pages/ChiSiamo";
@@ -20,25 +21,8 @@ function ScrollManager() {
   const [location] = useLocation();
 
   useEffect(() => {
-    const targetUrl = new URL(location, window.location.origin);
-
-    if (targetUrl.hash) {
-      const hash = decodeURIComponent(targetUrl.hash.slice(1));
-
-      const frameId = window.requestAnimationFrame(() => {
-        const targetElement = document.getElementById(hash);
-
-        if (targetElement) {
-          targetElement.scrollIntoView({ block: "start", behavior: "auto" });
-        } else {
-          window.scrollTo({ top: 0, left: 0, behavior: "auto" });
-        }
-      });
-
-      return () => window.cancelAnimationFrame(frameId);
-    }
-
-    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+    // Always scroll to top when route changes
+    window.scrollTo(0, 0);
   }, [location]);
 
   return null;
@@ -69,6 +53,7 @@ function App() {
           <ScrollManager />
           <Router />
         </WouterRouter>
+
         <Toaster />
       </TooltipProvider>
     </QueryClientProvider>

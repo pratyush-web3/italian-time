@@ -113,3 +113,8 @@
     @apply font-serif font-medium;
   }
 }
+
+
+html {
+  scroll-behavior: smooth;
+}
