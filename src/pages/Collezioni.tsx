@@ -96,9 +96,9 @@ export default function Collezioni() {
   ];
 
   return (
-    <div className="min-h-[100dvh] flex flex-col">
+    <div className="min-h-dvh flex flex-col">
       <Navbar />
-      <main className="flex-grow pt-32 bg-background">
+      <main className="grow pt-32 bg-background">
         <div className="container mx-auto px-6 max-w-4xl text-center mb-24">
           <h1 className="text-5xl font-serif text-foreground mb-6">Le Collezioni</h1>
           <p className="text-muted-foreground font-light text-lg">Nove espressioni distinte della nostra maestria orologiera.</p>
@@ -107,7 +107,7 @@ export default function Collezioni() {
         {collections.map((coll, index) => {
           const isLeft = index % 2 === 0;
           return (
-            <section key={coll.id} id={coll.id} className={`py-24 ${index % 2 !== 0 ? 'bg-card border-y border-border' : ''}`}>
+            <section key={coll.id} id={coll.id} className={`py-24 scroll-mt-28 md:scroll-mt-32 ${index % 2 !== 0 ? 'bg-card border-y border-border' : ''}`}>
               <div className="container mx-auto px-6 max-w-6xl">
                 <div className={`flex flex-col ${isLeft ? 'lg:flex-row' : 'lg:flex-row-reverse'} items-center gap-16`}>
                   
@@ -115,7 +115,7 @@ export default function Collezioni() {
                     <img 
                       src={coll.image} 
                       alt={`Collezione ${coll.name}`} 
-                      className="w-full h-[600px] object-cover transition-transform duration-1000 group-hover:scale-105"
+                      className="w-full h-150 object-cover transition-transform duration-1000 group-hover:scale-105"
                     />
                   </div>
 

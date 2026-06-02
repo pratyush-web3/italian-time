@@ -27,10 +27,13 @@ export function Footer() {
           <div>
             <h4 className="font-serif tracking-widest text-sm mb-6 text-primary-foreground/80 uppercase">Collezioni</h4>
             <ul className="space-y-3 text-sm text-secondary">
-              <li><Link href="/collezioni" className="hover:text-accent transition-colors">Milano</Link></li>
-              <li><Link href="/collezioni" className="hover:text-accent transition-colors">Torino</Link></li>
-              <li><Link href="/collezioni" className="hover:text-accent transition-colors">Venezia</Link></li>
-              <li><Link href="/collezioni" className="hover:text-accent transition-colors">Amalfi</Link></li>
+              {siteConfig.collections.map((collection) => (
+                <li key={collection.name}>
+                  <Link href={collection.href} className="hover:text-accent transition-colors">
+                    {collection.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
@@ -67,11 +70,11 @@ export function Footer() {
 
         </div>
 
-        <div className="mt-16 pt-8 border-t border-primary-foreground/10 flex flex-col md:flex-row justify-between items-center text-xs text-secondary/60">
+        <div className="mt-16 pt-8 border-t border-primary-foreground/10 flex flex-col md:flex-row justify-between items-center text-xs text-primary-foreground/70">
           <p>&copy; {new Date().getFullYear()} {siteConfig.companyName}. Tutti i diritti riservati.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link href="/privacy" className="hover:text-primary-foreground transition-colors">Privacy Policy</Link>
-            <Link href="/termini" className="hover:text-primary-foreground transition-colors">Termini di Utilizzo</Link>
+            <Link href="/privacy" className="text-primary-foreground/90 hover:text-accent transition-colors">Privacy Policy</Link>
+            <Link href="/termini" className="text-primary-foreground/90 hover:text-accent transition-colors">Termini di Utilizzo</Link>
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
-import { Switch, Route, Router as WouterRouter } from "wouter";
+import { useEffect } from "react";
+import { Switch, Route, Router as WouterRouter, useLocation } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -14,6 +15,34 @@ import Privacy from "@/pages/Privacy";
 import Termini from "@/pages/Termini";
 
 const queryClient = new QueryClient();
+
+function ScrollManager() {
+  const [location] = useLocation();
+
+  useEffect(() => {
+    const targetUrl = new URL(location, window.location.origin);
+
+    if (targetUrl.hash) {
+      const hash = decodeURIComponent(targetUrl.hash.slice(1));
+
+      const frameId = window.requestAnimationFrame(() => {
+        const targetElement = document.getElementById(hash);
+
+        if (targetElement) {
+          targetElement.scrollIntoView({ block: "start", behavior: "auto" });
+        } else {
+          window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+        }
+      });
+
+      return () => window.cancelAnimationFrame(frameId);
+    }
+
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+  }, [location]);
+
+  return null;
+}
 
 function Router() {
   return (
@@ -37,6 +66,7 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
+          <ScrollManager />
           <Router />
         </WouterRouter>
         <Toaster />
